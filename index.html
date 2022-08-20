@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore money master</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+    <section class="container h-75">
+        <h2 class="text-center mt-5 text-success">Money Master</h2>
+        <div class="row g-5">
+          <div class="col-7 ">
+           <img class="img-fluid h-100" src="images/Pexels Photo by Karolina Grabowska.png" alt="">
+          </div>
+          <div class="col-5 text-center bg-light ">
+            <h3>Income</h3>
+            <p class="d-inline-block">income: </p>
+            <input id="income-value" type="text">
+            <p class="fw-semibold">Expense</p>
+            <p class="d-inline-block">food: </p>
+            <input id="food-value" type="text"> <br>
+            <p class="d-inline-block">Rent: </p>
+            <input id="rent-value" type="text"> <br>
+            <p class="d-inline-block">cloths: </p>
+            <input id="cloth-value" type="text"> <br>
+            <div class="text-center">
+                <button id="calculate" class="btn btn-primary px-4 ">calculate</button>
+                <h4>Total Expenses:<span id="expense-field">00</span></h4> 
+                <h5>Balance:<span id="balance-field">00</span></h5>
+                <div class="d-flex flex-row gap-2 mt-3 mb-4 justify-content-center">
+                    <p>Save:</p>
+                    <input id="save-field" class="h-25 w-25" type="text">
+                    <p>%</p>
+                    <button id="save-btn" class="btn btn-primary px-5 py-0">save</button>
+                </div>
+                <h5>Saving Amount:<span id="saving-amt">00</span></h45> 
+                <h5>Remaining Amount:<span id="remaining-amt">00</span></h5> 
+            </div>
+          </div>
+        </div>
+
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
